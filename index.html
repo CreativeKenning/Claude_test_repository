@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosophy Works Ranking Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Philosophy Works Ranking Survey</h1>
+            <p class="subtitle">Rate philosophical works to discover your preferred schools of thought</p>
+        </header>
+
+        <!-- Rating Section -->
+        <div id="rating-section" class="section">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+                <span class="progress-text" id="progress-text">0 / 30</span>
+            </div>
+
+            <div id="works-container"></div>
+
+            <button id="submit-btn" class="submit-btn">Submit Ratings</button>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results-section" class="section hidden">
+            <h2>Your Philosophy Preferences</h2>
+            <p class="results-description">Here's how you rated different schools of philosophy:</p>
+            <div id="chart_div"></div>
+            <button id="restart-btn" class="restart-btn">Start Over</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
