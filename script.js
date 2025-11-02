@@ -168,6 +168,7 @@ submitBtn.addEventListener('click', () => {
 function showResults() {
     // Calculate upvotes by school
     const schoolStats = {};
+    let upvotedWorks = [];
 
     philosophyWorks.forEach((work, index) => {
         const school = work.school;
@@ -184,10 +185,48 @@ function showResults() {
 
         if (userRatings[index] === 1) {
             schoolStats[school].upvotes++;
+            upvotedWorks.push(work);
         } else if (userRatings[index] === -1) {
             schoolStats[school].downvotes++;
         }
     });
+
+    // Determine personalized message
+    let message = '';
+
+    // Special case: Check if only Simone de Beauvoir was upvoted
+    if (upvotedWorks.length === 1 &&
+        upvotedWorks[0].author === 'Simone de Beauvoir') {
+        message = '🎯 You are a keen-eyed existentialist feminist!';
+    } else {
+        // Find the school with the most upvotes
+        let maxUpvotes = 0;
+        let topSchool = '';
+
+        for (const school in schoolStats) {
+            if (schoolStats[school].upvotes > maxUpvotes) {
+                maxUpvotes = schoolStats[school].upvotes;
+                topSchool = school;
+            }
+        }
+
+        // Display message based on top school
+        if (topSchool === 'Rationalism') {
+            message = '🧠 Congrats, you are a rationalist!';
+        } else if (topSchool === 'Existentialism') {
+            message = '🌟 Congrats, you are an existentialist!';
+        } else if (topSchool === 'Empiricism') {
+            message = '🔬 Congrats, you are an empiricist!';
+        } else if (topSchool === 'Pragmatism') {
+            message = '⚙️ Congrats, you are a pragmatist!';
+        } else if (topSchool === 'Ancient Greek Philosophy') {
+            message = '🏛️ Congrats, you are a Greek philosopher!';
+        }
+    }
+
+    // Display the personalized message
+    const messageElement = document.getElementById('personalized-message');
+    messageElement.textContent = message;
 
     // Hide rating section and show results
     ratingSection.classList.add('hidden');
