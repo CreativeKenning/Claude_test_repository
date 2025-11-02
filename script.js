@@ -17,11 +17,22 @@ const restartBtn = document.getElementById('restart-btn');
 // Load Google Charts
 google.charts.load('current', {'packages':['corechart']});
 
+// Shuffle array using Fisher-Yates algorithm
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 // Initialize the application
 async function init() {
     try {
         const response = await fetch('philosophy_works.json');
-        philosophyWorks = await response.json();
+        const data = await response.json();
+        philosophyWorks = shuffleArray(data);
         displayCurrentBatch();
         updateProgress();
     } catch (error) {
@@ -260,6 +271,9 @@ restartBtn.addEventListener('click', () => {
     currentBatchIndex = 0;
     userRatings = {};
     totalRated = 0;
+
+    // Re-shuffle the works for a new random order
+    philosophyWorks = shuffleArray(philosophyWorks);
 
     // Show rating section, hide results
     resultsSection.classList.add('hidden');
