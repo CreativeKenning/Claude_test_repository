@@ -1,0 +1,182 @@
+[
+  {
+    "author": "Plato",
+    "title": "The Republic",
+    "school": "Ancient Greek Philosophy",
+    "years": "428-348 BCE"
+  },
+  {
+    "author": "Aristotle",
+    "title": "Nicomachean Ethics",
+    "school": "Ancient Greek Philosophy",
+    "years": "384-322 BCE"
+  },
+  {
+    "author": "Socrates",
+    "title": "Apology",
+    "school": "Ancient Greek Philosophy",
+    "years": "470-399 BCE"
+  },
+  {
+    "author": "Epicurus",
+    "title": "Letter to Menoeceus",
+    "school": "Ancient Greek Philosophy",
+    "years": "341-270 BCE"
+  },
+  {
+    "author": "Epictetus",
+    "title": "Enchiridion",
+    "school": "Ancient Greek Philosophy",
+    "years": "50-135 CE"
+  },
+  {
+    "author": "Marcus Aurelius",
+    "title": "Meditations",
+    "school": "Ancient Greek Philosophy",
+    "years": "121-180 CE"
+  },
+  {
+    "author": "René Descartes",
+    "title": "Meditations on First Philosophy",
+    "school": "Rationalism",
+    "years": "1596-1650"
+  },
+  {
+    "author": "Baruch Spinoza",
+    "title": "Ethics",
+    "school": "Rationalism",
+    "years": "1632-1677"
+  },
+  {
+    "author": "Gottfried Wilhelm Leibniz",
+    "title": "Monadology",
+    "school": "Rationalism",
+    "years": "1646-1716"
+  },
+  {
+    "author": "Immanuel Kant",
+    "title": "Critique of Pure Reason",
+    "school": "Rationalism",
+    "years": "1724-1804"
+  },
+  {
+    "author": "Georg Wilhelm Friedrich Hegel",
+    "title": "Phenomenology of Spirit",
+    "school": "Rationalism",
+    "years": "1770-1831"
+  },
+  {
+    "author": "René Descartes",
+    "title": "Discourse on Method",
+    "school": "Rationalism",
+    "years": "1596-1650"
+  },
+  {
+    "author": "John Locke",
+    "title": "An Essay Concerning Human Understanding",
+    "school": "Empiricism",
+    "years": "1632-1704"
+  },
+  {
+    "author": "George Berkeley",
+    "title": "A Treatise Concerning the Principles of Human Knowledge",
+    "school": "Empiricism",
+    "years": "1685-1753"
+  },
+  {
+    "author": "David Hume",
+    "title": "An Enquiry Concerning Human Understanding",
+    "school": "Empiricism",
+    "years": "1711-1776"
+  },
+  {
+    "author": "David Hume",
+    "title": "A Treatise of Human Nature",
+    "school": "Empiricism",
+    "years": "1711-1776"
+  },
+  {
+    "author": "John Stuart Mill",
+    "title": "On Liberty",
+    "school": "Empiricism",
+    "years": "1806-1873"
+  },
+  {
+    "author": "Francis Bacon",
+    "title": "Novum Organum",
+    "school": "Empiricism",
+    "years": "1561-1626"
+  },
+  {
+    "author": "Søren Kierkegaard",
+    "title": "Fear and Trembling",
+    "school": "Existentialism",
+    "years": "1813-1855"
+  },
+  {
+    "author": "Friedrich Nietzsche",
+    "title": "Thus Spoke Zarathustra",
+    "school": "Existentialism",
+    "years": "1844-1900"
+  },
+  {
+    "author": "Jean-Paul Sartre",
+    "title": "Being and Nothingness",
+    "school": "Existentialism",
+    "years": "1905-1980"
+  },
+  {
+    "author": "Albert Camus",
+    "title": "The Myth of Sisyphus",
+    "school": "Existentialism",
+    "years": "1913-1960"
+  },
+  {
+    "author": "Martin Heidegger",
+    "title": "Being and Time",
+    "school": "Existentialism",
+    "years": "1889-1976"
+  },
+  {
+    "author": "Simone de Beauvoir",
+    "title": "The Ethics of Ambiguity",
+    "school": "Existentialism",
+    "years": "1908-1986"
+  },
+  {
+    "author": "William James",
+    "title": "Pragmatism",
+    "school": "Pragmatism",
+    "years": "1842-1910"
+  },
+  {
+    "author": "Charles Sanders Peirce",
+    "title": "How to Make Our Ideas Clear",
+    "school": "Pragmatism",
+    "years": "1839-1914"
+  },
+  {
+    "author": "John Dewey",
+    "title": "Democracy and Education",
+    "school": "Pragmatism",
+    "years": "1859-1952"
+  },
+  {
+    "author": "Richard Rorty",
+    "title": "Philosophy and the Mirror of Nature",
+    "school": "Pragmatism",
+    "years": "1931-2007"
+  },
+  {
+    "author": "Hilary Putnam",
+    "title": "Reason, Truth and History",
+    "school": "Pragmatism",
+    "years": "1926-2016"
+  },
+  {
+    "author": "William James",
+    "title": "The Will to Believe",
+    "school": "Pragmatism",
+    "years": "1842-1910"
+  }
+]
